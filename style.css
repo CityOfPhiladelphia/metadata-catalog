@@ -1,147 +1,128 @@
+@import url(//cityofphiladelphia.github.io/patterns/dist/0.12.6/css/patterns.css)
 /* These styles are placed in the Knack app settings under `API & Code` 
    https://builder.knackhq.com/phl/inventory#settings/api    */
+
 #placeholder {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-
 #kn-app-menu a {
-	border: none!important;
+  border: none!important;
 }
-
 #kn-app-menu {
-	width: 50%!important;
-  	float: right!important;
-    text-transform: uppercase!important;
-  	font-family: 'Montserrat', 'Tahoma', sans-serif;
-  	letter-spacing: 1.1;
-  	color: black!important;
-  	font-weight: 500;
+  width: 50%!important;
+  float: right!important;
+  text-transform: uppercase!important;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  letter-spacing: 1.1;
+  color: black!important;
+  font-weight: 500;
 }
-
 .kn-grid-list {
-	border: none!important;
+  border: none!important;
 }
-
 #kn-app-menu ul {
-	border: none!important;
-  	padding-left: 5px;
+  border: none!important;
+  padding-left: 5px;
 }
-
 .kn-current_user {
   margin-top: -70px!important;
   margin-left: 60%;
   font-size: .8rem;
 }
-
-.kn-grid-list .kn-grid-3 li span a{
+.kn-grid-list .kn-grid-3 li span a {
   border-top: 2px solid #f2ba13;
   margin-right: 20px;
   font-size: .8rem;
   font-weight: lighter;
 }
-
-.kn-table table{
-	border-spacing: 2px!important;
-  	border-collapse: separate!important;
-    border: 0px!important;
+.kn-table table {
+  border-spacing: 2px!important;
+  border-collapse: separate!important;
+  border: 0px!important;
 }
-
 .kn-table table td {
-  	border: 0px!important;
+  border: 0px!important;
 }
-
-.kn-table-link, .kn-table table th a {
-	color: #FFF !important;
-  	
+.kn-table-link,
+.kn-table table th a {
+  color: #FFF !important;
 }
-
-.kn-table-link span a{
-    background-color: #027ea4;
-    color: white!important;
-    padding: 3px;
-    margin: 0px auto;
-    display: block;
-    text-align: center;
-  	text-transform: uppercase;
-  	font-family: 'Montserrat', 'Tahoma', sans-serif;
-  	letter-spacing: 1.1;
+.kn-table-link span a {
+  background-color: #027ea4;
+  color: white!important;
+  padding: 3px;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  letter-spacing: 1.1;
 }
-
 .kn-link-1 {
-  	float: right!important;
+  float: right!important;
 }
-
 .kn-content .kn-button-menu a:link {
-	background: #fff!important;
-  	color: black!important;
-  	border: 1px solid #9299A5;
-    text-transform: uppercase;
-  	font-family: 'Montserrat', 'Tahoma', sans-serif;
-  	letter-spacing: 1.1;
-    text-align: center;
-  	padding-right: 15px!important;
-    border-radius: 0px!important;
-  	-webkit-border-radius: 0px!important;
+  background: #fff!important;
+  color: black!important;
+  border: 1px solid #9299A5;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  letter-spacing: 1.1;
+  text-align: center;
+  padding-right: 15px!important;
+  border-radius: 0px!important;
+  -webkit-border-radius: 0px!important;
 }
-
 li.kn-grid-1 {
   background: #fff!important;
-    color: black!important;
-    border: 1px solid #9299A5;
-    text-transform: uppercase;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    letter-spacing: 1.1;
-    text-align: center;
-    padding-right: 15px!important;
-    border-radius: 0px!important;
-    -webkit-border-radius: 0px!important;
+  color: black!important;
+  border: 1px solid #9299A5;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  letter-spacing: 1.1;
+  text-align: center;
+  padding-right: 15px!important;
+  border-radius: 0px!important;
+  -webkit-border-radius: 0px!important;
 }
-
-.kn-table tbody td{
-	line-height: 1.125rem!important;  	
+.kn-table tbody td {
+  line-height: 1.125rem!important;
 }
-
 .kn-table tr.odd {
-	background-color:#F1F3F1!important;
+  background-color: #F1F3F1!important;
 }
-
 .kn-table tr.even {
-	background-color: #DBE1E3!important;
+  background-color: #DBE1E3!important;
 }
-
 .table-keyword-search {
-//float: right;
- 	margin-top: -50px;
-  	padding-right: 90px;
+  //float: right;
+  margin-top: -50px;
+  padding-right: 90px;
 }
-
 .small.kn-button.gray {
-//	float: right!important;
-  	margin-right: -90px;
-  	margin-top: -25px;
-  	border-radius: 0px;
-  	-webkit-border-radius: 0px;
+  //	float: right!important;
+  margin-right: -90px;
+  margin-top: -25px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
 }
-
 .kn-view {
-	margin: 0px;
+  margin: 0px;
 }
-
 #kn-scene_20 .kn-table-table {
-	width: 94%;
+  width: 94%;
 }
-
 #kn-scene_20 table.thead {
-important;
+  important;
 }
-
 table thead {
- 	 background: #9299A5;
+  background: #9299A5;
 }
-
-table thead tr th, table thead tr td, table tr th {
-	padding: 0.625rem!important;
-  	font-size: 0.8125rem!important;
-  	background: #9299A5!important;
-  	color: #FFF!important;
+table thead tr th,
+table thead tr td,
+table tr th {
+  padding: 0.625rem!important;
+  font-size: 0.8125rem!important;
+  background: #9299A5!important;
+  color: #FFF!important;
 }
