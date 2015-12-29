@@ -1,92 +1,85 @@
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Metadata Catalog | phila.gov</title>
+    <link rel='icon' type='image/x-icon' href="//cityofphiladelphia.github.io/patterns/images/favicon.ico">
+    <meta name="description" content="">
 
-  <title>Metadata Catalog | phila.gov</title>
-  <link rel='icon' type='image/x-icon' href="//cityofphiladelphia.github.io/patterns/images/favicon.ico">
-  <meta name="description" content="">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--Ionicons are optional-->
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!--Ionicons are optional-->
-  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!--pattern stylesheet includes foundation css -->
+    <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.9.1/css/patterns.css">
 
-  <!--pattern stylesheet includes foundation css -->
-  <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.9.1/css/patterns.css">
+    <link rel="canonical" href="">
 
-  <link rel="canonical" href="https://metadata.phila.gov">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
+    <script src="//cityofphiladelphia.github.io/patterns/dist/0.9.1/js/patterns.min.js"></script>
+    <style>
+      /*#knack-catalog {width:99%; margin-left: 10px;}*/
+    </style>
+  </head>
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
-  <script src="//cityofphiladelphia.github.io/patterns/dist/0.9.1/js/patterns.min.js"></script>
-  <style>
-    /*#knack-catalog {width:99%; margin-left: 10px;}*/
-
-  </style>
-</head>
-
-<body>
+  <body>
   <!-- Google Tag Manager [phila.gov] -->
-  <noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC6CR2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <script type="text/javascript">
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MC6CR2');
-
-  </script>
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC6CR2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MC6CR2');</script>
   <!-- End Google Tag Manager -->
   <div class="full" id="application">
 
-    <!-- Begin .header -->
-    <header data-swiftype-index='false' class="site-header" role="banner">
-      <div class="row">
-        <div class="small-24 medium-12 columns">
-          <a href="http://alpha.phila.gov"><img src="//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-logo.png" class="logo no-scale" alt="City of Philadelphia"></a>
-        </div>
-        <div class="small-24 medium-12 columns">
-          <!-- <form class="search">
+  <!-- Begin .header -->
+  <header data-swiftype-index='false' class="site-header" role="banner">
+    <div class="row">
+      <div class="small-24 medium-12 columns">
+        <a href="http://alpha.phila.gov"><img src="//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-logo.png" class="logo no-scale" alt="City of Philadelphia"></a>
+      </div>
+      <div class="small-24 medium-12 columns">
+  <!-- <form class="search">
     <input type="text" placeholder="Search alpha.phila.gov"><input type="submit">
   </form> -->
-        </div>
-      </div>
-    </header>
 
-    <div class="row">
-      <div class="small-24 columns">
-        <div class="divider"></div>
       </div>
     </div>
-    <article data-swiftype-name="body" data-swiftype-type="text">
-      <div class="row">
-        <div class="large-24 columns" id="knack-catalog">
-          <script type="text/javascript">
-            app_id = "550c60d00711ffe12e9efc64";
-            distribution_key = "dist_2";
+  </header>
 
-          </script>
-          <script type="text/javascript" src="https://api.knackhq.com/550c60d00711ffe12e9efc64/dist_2/knack.js"></script>
-          <div id="knack-dist_2">Loading...</div>
-        </div>
-      </div>
-    </article>
+  <div class="row">
+    <div class="small-24 columns">
+      <div class="divider"></div>
+    </div>
   </div>
-  <!-- End #page -->
+  <div class="row"><br>
+
+<!--   <div id="breadcrumbs" class="large-24 columns">
+    <ul class="inline-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Grandparent</a></li>
+      <li><a href="#">Parent</a></li>
+      <li>Child</li>
+    </ul>
+  </div> -->
+  </div>
+
+        <article data-swiftype-name="body" data-swiftype-type="text">
+          <div class="row">
+            <div class="large-24 columns" id="knack-catalog">
+              <script type="text/javascript">app_id="550c60d00711ffe12e9efc64";distribution_key="dist_2";</script>
+              <script type="text/javascript" src="https://api.knackhq.com/550c60d00711ffe12e9efc64/dist_2/knack.js"></script>
+              <div id="knack-dist_2">Loading...</div>
+            </div>
+          </div>
+        </article>
+      </div><!-- End #page -->
   <!-- Begin Footer -->
   <footer data-swiftype-index='false' class="site-footer" role="contentinfo">
     <section class="fat">
@@ -141,13 +134,11 @@
 
   <!-- End Footer -->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
-  <script src="//cityofphiladelphia.github.io/patterns/dist/0.9.1/js/patterns.min.js"></script>
-  <script>
-    $(document).foundation();
-
-  </script>
-</body>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
+    <script src="//cityofphiladelphia.github.io/patterns/dist/0.9.1/js/patterns.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>

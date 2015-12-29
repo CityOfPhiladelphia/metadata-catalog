@@ -1,170 +1,147 @@
 /* These styles are placed in the Knack app settings under `API & Code` 
    https://builder.knackhq.com/phl/inventory#settings/api    */
-
 #placeholder {
-  //	padding-bottom: 20px;
-  //  	width: 30%;
-  width: 250px;
-  float: left!important;
-  //  margin-right: 90px;
-  height: 2.4rem!important;
-  margin-bottom: -38;
+	padding-bottom: 20px;
 }
 
-}
 #kn-app-menu a {
-  border: none!important;
+	border: none!important;
 }
+
 #kn-app-menu {
-  width: 40%!important;
-  float: right!important;
-  text-transform: uppercase!important;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
-  color: black!important;
-  font-weight: 500;
+	width: 50%!important;
+  	float: right!important;
+    text-transform: uppercase!important;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
+  	color: black!important;
+  	font-weight: 500;
 }
-#kn-app-menu li {}
+
 .kn-grid-list {
-  border-top: 2px solid #f2ba13!important;
-  border-left: none!important;
-  border-right: none!important;
-  border-bottom: none!important;
-  padding-right: 20px!important;
+	border: none!important;
 }
+
 #kn-app-menu ul {
-  padding-left: 5px;
+	border: none!important;
+  	padding-left: 5px;
 }
-.kn-content #kn-app-menu a {}
+
 .kn-current_user {
   margin-top: -70px!important;
   margin-left: 60%;
   font-size: .8rem;
 }
-.kn-grid-list.kn-grid-2 {
+
+.kn-grid-list .kn-grid-3 li span a{
+  border-top: 2px solid #f2ba13;
   margin-right: 20px;
   font-size: .8rem;
   font-weight: lighter;
-  border-top: 2px solid #f2ba13!important;
 }
-.kn-table table {
-  border-spacing: 2px!important;
-  border-collapse: separate!important;
-  border: 0px!important;
+
+.kn-table table{
+	border-spacing: 2px!important;
+  	border-collapse: separate!important;
+    border: 0px!important;
 }
+
 .kn-table table td {
-  border: 0px!important;
+  	border: 0px!important;
 }
-.kn-table-link,
-.kn-table table th a {
-  color: #FFF !important;
+
+.kn-table-link, .kn-table table th a {
+	color: #FFF !important;
+  	
 }
-.kn-table-link span a {
-  background-color: #027ea4;
-  color: white!important;
-  padding: 3px;
-  margin: 0px auto;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
+
+.kn-table-link span a{
+    background-color: #027ea4;
+    color: white!important;
+    padding: 3px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+  	text-transform: uppercase;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
 }
+
 .kn-link-1 {
-  float: right!important;
+  	float: right!important;
 }
-.kn-link-2 {
-  float: right!important;
-}
-.kn-link-3 {
-  float: right!important;
-}
+
 .kn-content .kn-button-menu a:link {
+	background: #fff!important;
+  	color: black!important;
+  	border: 1px solid #9299A5;
+    text-transform: uppercase;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
+    text-align: center;
+  	padding-right: 15px!important;
+    border-radius: 0px!important;
+  	-webkit-border-radius: 0px!important;
+}
+
+li.kn-grid-1 {
   background: #fff!important;
-  color: black!important;
-  border: 1px solid #9299A5;
-  text-transform: uppercase;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
-  text-align: center;
-  padding-right: 15px!important;
-  border-radius: 0px!important;
-  -webkit-border-radius: 0px!important;
+    color: black!important;
+    border: 1px solid #9299A5;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    letter-spacing: 1.1;
+    text-align: center;
+    padding-right: 15px!important;
+    border-radius: 0px!important;
+    -webkit-border-radius: 0px!important;
 }
-.kn-table tbody td {
-  line-height: 1.125rem!important;
+
+.kn-table tbody td{
+	line-height: 1.125rem!important;  	
 }
+
 .kn-table tr.odd {
-  background-color: #F1F3F1!important;
+	background-color:#F1F3F1!important;
 }
+
 .kn-table tr.even {
-  background-color: #DBE1E3!important;
+	background-color: #DBE1E3!important;
 }
-.kn-view {
-  margin: 0px;
-}
-.view-header {
-  margin-bottom: 20px;
-}
-#kn-scene_20 .kn-table-table {
-  width: 100%;
-}
-.kn-pagination select {
-  border: 0px!important;
-  background-color: #FFF!important;
-}
-.kn-change-page {
-  border: 0px!important;
-  background-color: #FFF!important;
-}
+
 .table-keyword-search {
-  float: right;
-  width: 320px;
-  height: 2.4rem;
-  margin:
+//float: right;
+ 	margin-top: -50px;
+  	padding-right: 90px;
 }
-#inner-editor,
-input[name="keyword"] {
-  width: 250px;
-  float: left!important;
-  //  margin-right: 90px;
-  height: 2.4rem!important;
-  margin-bottom: -38;
-}
+
 .small.kn-button.gray {
-  float: right!important;
-  -webkit-border-radius: 0px;
-  background-color: #FFF;
-  border: 1px solid black;
-  color: black!important;
-  text-transform: uppercase;
-  font-size: .8rem;
-  height: 2.4rem;
+//	float: right!important;
+  	margin-right: -90px;
+  	margin-top: -25px;
+  	border-radius: 0px;
+  	-webkit-border-radius: 0px;
 }
-a.kn-button.save {
-  border: 1px solid #027ea4;
-  background-color: #027ea4;
-  padding: 7px 10px 7px 10px!important;
-  margin-right: 3px;
-  border-radius: 0px;
+
+.kn-view {
+	margin: 0px;
 }
-a.button:link {
-  color: #027ea4;
-  padding: 7px 10px 7px 10px!important;
-  margin-right: 3px;
-  border-radius: 0px;
+
+#kn-scene_20 .kn-table-table {
+	width: 94%;
 }
-#kn-popover h1 {
-  background-color: #f7f7f7;
+
+#kn-scene_20 table.thead {
+important;
 }
+
 table thead {
-  background: #9299A5;
+ 	 background: #9299A5;
 }
-table thead tr th,
-table thead tr td,
-table tr th {
-  padding: 0.625rem!important;
-  font-size: 0.8125rem!important;
-  background: #9299A5!important;
-  color: #FFF!important;
+
+table thead tr th, table thead tr td, table tr th {
+	padding: 0.625rem!important;
+  	font-size: 0.8125rem!important;
+  	background: #9299A5!important;
+  	color: #FFF!important;
 }
