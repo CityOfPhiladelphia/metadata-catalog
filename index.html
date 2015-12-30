@@ -24,6 +24,36 @@
   <script src="//cityofphiladelphia.github.io/patterns/dist/0.12.6/js/patterns.min.js"></script>
   <style>
     /*#knack-catalog {width:99%; margin-left: 10px;}*/
+    
+    #heading,
+    .app nav {
+      /*      padding-top: 2rem;*/
+      text-align: left;
+    }
+    
+    .top-bar-section {
+      width: 50%;
+    }
+    
+    .top-bar-section ul {
+      margin-top: 1.2rem;
+    }
+    
+    input[type="text"] {
+      height: auto;
+    }
+    
+    @media only screen and (min-width: 40.0625em) {
+      .kn-menu.kn-view.view_241 {
+        margin-bottom: 30px;
+      }
+    }
+    
+    @media only screen and (min-width: 40.0625em) {
+      .top-bar-section .right li .dropdown {
+        margin-top: 0;
+      }
+    }
 
   </style>
 </head>
@@ -78,12 +108,26 @@
           </div>
         </div>
         <div class="large-8 columns">
-          <nav class="right">
-            <!--
-<a class="button" href="#/">Button 1</a>
-<a class="button" href="#/">Button 2</a>
+          <!--
+          <nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name"></li>
+    <li class="toggle-topbar menu-icon"><a href="#/"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li><a href="">Help</a></li>
+      <li class="has-dropdown"><a href="">Dimension</a>
+        <ul class="dropdown">
+          <li><a href="#help">Help</a></li>
+        </ul>
+      </li>
+      <li><a href="http://metadata.phila.gov/#home/datasetdetails/56142af5210dfc8711e84a7f/" target="_blank">Data Dictionary</a>
+      </li>
+    </ul>
+  </section>
+</nav>
 -->
-          </nav>
         </div>
       </div>
     </header>
@@ -93,9 +137,11 @@
         <div class="divider"></div>
       </div>
     </div>
-    <div class="row">
-      <br>
-    </div>
+    <!--
+<div class="row">
+  <br>
+</div>
+-->
 
     <article data-swiftype-name="body" data-swiftype-type="text">
       <div class="row">
