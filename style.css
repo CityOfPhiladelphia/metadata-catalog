@@ -12,6 +12,7 @@
   margin-bottom: -38;
 }
 
+
 }
 #kn-app-menu a {
   border: none!important;
@@ -191,4 +192,142 @@ table tr th {
   .kn-menu.kn-view.view_241 {
     margin-bottom: 30px;
   }
+}
+
+/*Fixed help buttons in forms*/
+.kn-menu.kn-view.view_395 a,
+.kn-menu.kn-view.view_396 a,
+.kn-menu.kn-view.view_397 a,
+.kn-menu.kn-view.view_356 a {
+  position: fixed!important;
+  bottom: 70%;
+  right: 30px;
+  color: black!important;
+  text-align: center!important;
+  background: #f2ba13!important;
+  padding-left: 8px!important;
+}
+.kn-menu.kn-view.view_395 a:hover,
+.kn-menu.kn-view.view_396 a:hover,
+.kn-menu.kn-view.view_397 a:hover,
+.kn-menu.kn-view.view_356 a:hover {
+  background: white!important;
+}
+
+/*Help topics popup buttons */
+.kn-menu.kn-view.view_383 li,
+.kn-menu.kn-view.view_385 li,
+.kn-menu.kn-view.view_387 li,
+.kn-menu.kn-view.view_389 li,
+.kn-menu.kn-view.view_391 li,
+.kn-menu.kn-view.view_393 li,
+.kn-menu.kn-view.view_414 li {
+  width: 100%;
+}
+.kn-menu.kn-view.view_383 a,
+.kn-menu.kn-view.view_385 a,
+.kn-menu.kn-view.view_387 a,
+.kn-menu.kn-view.view_389 a,
+.kn-menu.kn-view.view_391 a,
+.kn-menu.kn-view.view_393 a,
+.kn-menu.kn-view.view_414 a {
+  width: 100%;
+  color: black!important;
+  text-align: center!important;
+  background: #f2ba13!important;
+  padding-left: 8px!important;
+}
+.kn-menu.kn-view.view_383 a:hover,
+.kn-menu.kn-view.view_385 a:hover,
+.kn-menu.kn-view.view_387 a:hover,
+.kn-menu.kn-view.view_389 a:hover,
+.kn-menu.kn-view.view_391 a:hover,
+.kn-menu.kn-view.view_393 a:hover,
+.kn-menu.kn-view.view_414 a:hover {
+  background: white!important;
+}
+.kn-menu.kn-view.view_383 a:visited,
+.kn-menu.kn-view.view_385 a:visited,
+.kn-menu.kn-view.view_387 a:visited,
+.kn-menu.kn-view.view_389 a:visited,
+.kn-menu.kn-view.view_391 a:visited,
+.kn-menu.kn-view.view_393 a:visited,
+.kn-menu.kn-view.view_414 a:visited {
+  background: #f7f7f7!important;
+}
+
+/* Update frequency chart window */
+.highcharts-series.highcharts-tracker rect {
+  fill: #027ea4!important;
+}
+
+/* Help tab landing page boxes*/
+.kn-menu.kn-view.view_300,
+.kn-menu.kn-view.view_410,
+.kn-menu.kn-view.view_408,
+.kn-menu.kn-view.view_403,
+.kn-menu.kn-view.view_405 {
+  position: absolute!important;
+  top: 70%;
+  height: 150px;
+  width: 200px;
+  text-align: center!important;
+  padding: 20px!important;
+  margin: 10px 10px 10px 10px!important;
+}
+.kn-menu.kn-view.view_408 {
+  left: 40px;
+}
+.kn-menu.kn-view.view_410 {
+  left: 260px;
+}
+.kn-menu.kn-view.view_300 {
+  left: 480px;
+}
+.kn-menu.kn-view.view_403 {
+  left: 700px;
+}
+.kn-menu.kn-view.view_405 {
+  left: 920px;
+}
+.kn-menu.kn-view.view_300 a,
+.kn-menu.kn-view.view_410 a,
+.kn-menu.kn-view.view_408 a,
+.kn-menu.kn-view.view_403 a,
+.kn-menu.kn-view.view_405 a {
+  position: relative!important;
+  height: 150px;
+  width: 200px;
+  color: black!important;
+  text-align: center!important;
+  background: #f2ba13!important;
+  border-color: #666666!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  line-height: initial!important;
+  font-size: 180%;
+}
+.kn-menu.kn-view.view_300 a:hover,
+.kn-menu.kn-view.view_410 a:hover,
+.kn-menu.kn-view.view_408 a:hover,
+.kn-menu.kn-view.view_403 a:hover,
+.kn-menu.kn-view.view_405 a:hover {
+  background: white!important;
+}
+.kn-menu.kn-view.view_408 a {
+  padding-top: 35px;
+}
+.kn-menu.kn-view.view_410 a {
+  padding-top: 25px;
+}
+.kn-menu.kn-view.view_300 a {
+  padding-top: 50px;
+  padding-left: 5px!important;
+}
+.kn-menu.kn-view.view_403 a {
+  padding-top: 50px;
+  padding-left: 5px!important;
+}
+.kn-menu.kn-view.view_405 a {
+  padding-top: 10px;
 }
