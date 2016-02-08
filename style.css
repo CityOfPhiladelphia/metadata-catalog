@@ -2,196 +2,337 @@
 /* These styles are placed in the Knack app settings under `API & Code` 
    https://builder.knackhq.com/phl/inventory#settings/api    */
 
+@import url(htps://cityofphiladelphia.github.io/patterns/dist/0.12.6/css/patterns.css)
+/* These styles are placed in the Knack app settings under `API & Code` 
+   https://builder.knackhq.com/phl/inventory#settings/api    */
+
 #placeholder {
-  //	padding-bottom: 20px;
-  //  	width: 30%;
-  width: 250px;
-  float: left!important;
-  //  margin-right: 90px;
-  height: 2.4rem!important;
-  margin-bottom: -38;
+//	padding-bottom: 20px;
+//  	width: 30%;
+    width: 250px;
+  	float: left!important;
+//  margin-right: 90px;
+ 	height: 2.4rem!important;
+ 	margin-bottom: -38;
+}
 }
 
-
-}
 #kn-app-menu a {
-  border: none!important;
+	border: none!important;
 }
+
 #kn-app-menu {
-  float: right!important;
-  text-transform: uppercase!important;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
-  color: black!important;
-  font-weight: 500;
+  	float: right!important;
+    text-transform: uppercase!important;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
+  	color: black!important;
+  	font-weight: 500;
 }
-#kn-app-menu li {}
+
+#kn-app-menu li {
+  
+}
+
 .kn-grid-list {
-  border-top: 2px solid #f2ba13!important;
-  border-left: none!important;
-  border-right: none!important;
-  border-bottom: none!important;
-  padding-right: 20px!important;
+  	border-top: 2px solid #f2ba13!important;
+	border-left: none!important;
+	border-right: none!important;
+	border-bottom: none!important;
+  	padding-right: 20px!important;
 }
+
 #kn-app-menu ul {
-  padding-left: 5px;
+  	padding-left: 5px;
 }
-.kn-content #kn-app-menu a {}
+
+.kn-content #kn-app-menu a {
+	
+}
+
 .kn-current_user {
   margin-top: -70px!important;
   margin-left: 60%;
   font-size: .8rem;
 }
+
 .kn-grid-list.kn-grid-4 {
   margin-right: 20px;
   font-size: .8rem;
   font-weight: lighter;
-  /* border-top: 2px solid #f2ba13!important;*/
-  
+ /* border-top: 2px solid #f2ba13!important;*/
   border: 0px!important;
 }
+
+
 table tbody tr th.kn-label {
   color: white!important;
+  } 
+
+.kn-table table{
+	/* border-spacing: 2px!important; */
+  	/* border-collapse: separate!important; */
+    border: 0px!important;
 }
-.kn-table table {
-  /* border-spacing: 2px!important; */
-  /* border-collapse: separate!important; */
-  
-  border: 0px!important;
-}
+
 .kn-table table td {
-  border: 0px!important;
+  	border: 0px!important;
 }
-.kn-table-link,
-.kn-table table th a {
-  color: #FFF !important;
+
+.kn-table-link, .kn-table table th a {
+	color: #FFF !important;
 }
-.kn-table-link span a {
-  background-color: #027ea4;
-  color: white!important;
-  padding: 3px;
-  margin: 0px auto;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
+
+.kn-table-link span a{
+    background-color: #027ea4;
+    color: white!important;
+    padding: 3px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+  	text-transform: uppercase;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
 }
+
 .kn-link-1 {
-  float: right!important;
+  	float: right!important;
 }
+
 .kn-link-2 {
-  float: right!important;
+  	float: right!important;
 }
+
 .kn-link-3 {
-  float: right!important;
+  	float: right!important;
 }
+
 .kn-content .kn-button-menu a:link {
-  background: #fff!important;
-  color: black!important;
-  border: 1px solid #9299A5;
-  text-transform: uppercase;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
-  letter-spacing: 1.1;
-  text-align: center;
-  padding-right: 15px!important;
-  border-radius: 0px!important;
-  -webkit-border-radius: 0px!important;
+	background: #fff!important;
+  	color: black!important;
+  	border: 1px solid #9299A5;
+    text-transform: uppercase;
+  	font-family: 'Montserrat', 'Tahoma', sans-serif;
+  	letter-spacing: 1.1;
+    text-align: center;
+  	padding-right: 15px!important;
+    border-radius: 0px!important;
+  	-webkit-border-radius: 0px!important;
 }
-.kn-table tbody td {
-  line-height: 1.125rem!important;
+
+.kn-table tbody td{
+	line-height: 1.125rem!important;  	
 }
+
 .kn-table tr.odd {
-  background-color: #F1F3F1!important;
+	background-color:#F1F3F1!important;
 }
+
 .kn-table tr.even {
-  background-color: #DBE1E3!important;
+	background-color: #DBE1E3!important;
 }
+
 .kn-menu.kn-view {
-  margin: 0px;
-  padding: 0px;
-  border: 0px!important;
+	margin: 0px;
+   	padding: 0px;
+  	border: 0px!important;
 }
-.view-header h2 {
-  font-size: 2rem;
+
+.view-header h2{
+	font-size: 2rem;
 }
+
 #kn-scene_20 .kn-table-table {
-  width: 100%;
+	width: 100%;
 }
+
 .kn-menu.kn-view.view_271 {
-  display: none!important;
+  	display: none!important;
+  
 }
-.kn-menu.kn-view.view_241 {
-  float: left;
-  margin-top: 60px;
-  position: fixed;
-}
+
 .kn-pagination select {
-  border: 0px!important;
-  background-color: #FFF!important;
+	border: 0px!important;
+  	background-color: #FFF!important;
 }
+
 .kn-change-page {
-  border: 0px!important;
-  background-color: #FFF!important;
+	border: 0px!important;
+  	background-color: #FFF!important;
 }
+
 .table-keyword-search {
-  float: right;
-  width: 320px;
-  height: 2.4rem;
+	float: right;
+  	width: 320px;
+  	height: 2.4rem;
 }
-#inner-editor,
-input[name="keyword"] {
+
+#inner-editor, input[name="keyword"] {
   width: 250px;
   float: left!important;
-  //  margin-right: 90px;
+//  margin-right: 90px;
   height: 2.4rem!important;
   margin-bottom: -38;
 }
+
 input[type]::-webkit-input-placeholder {
   text-align: center;
 }
+
 .small.kn-button.gray {
-  float: right!important;
-  -webkit-border-radius: 0px;
-  background-color: #FFF;
-  border: 1px solid black;
-  color: black!important;
-  text-transform: uppercase;
-  font-size: .8rem;
-  padding-top: 7px!important;
-  height: 2.4rem;
+  	float: right!important;  
+    -webkit-border-radius: 0px;
+    background-color: #FFF;
+    border: 1px solid black;
+    color: black!important;
+    text-transform: uppercase;
+    font-size: .8rem;
+  	padding-top: 7px!important;
+  	height: 2.4rem;
 }
+
 a.kn-button.save {
   border: 1px solid #027ea4;
   background-color: #027ea4;
   padding: 7px 10px 7px 10px!important;
   margin-right: 3px;
   border-radius: 0px;
+  
 }
+
 a.button:link {
   color: #027ea4;
   padding: 7px 10px 7px 10px!important;
   margin-right: 3px;
   border-radius: 0px;
 }
+
 #kn-popover h1 {
   background-color: #f7f7f7;
 }
+  
+
 table thead {
-  background: #9299A5;
+ 	 background: #9299A5;
 }
-table thead tr th,
-table thead tr td,
-table tr th {
-  padding: 0.625rem!important;
-  font-size: 0.8125rem!important;
-  background: #9299A5!important;
-  color: #FFF!important;
+
+table thead tr th, table thead tr td, table tr th {
+	padding: 0.625rem!important;
+  	font-size: 0.8125rem!important;
+  	background: #9299A5!important;
+  	color: #FFF!important;
 }
-@media only screen and (min-width: 40.0625em) {
-  .kn-menu.kn-view.view_241 {
-    margin-bottom: 30px;
-  }
+
+/* Phaedra testing */
+/* Fake required asterisks in forms */
+div#kn-input-field_53 span:after, div#kn-input-field_205 span:after, div#kn-input-field_190 span:after {
+  content: " *  (only required if applicable)";
+  color: red;
+}
+
+div#kn-input-field_200 span:after, div#kn-input-field_36 span:after {
+  content: " *";
+  color: red;
+}
+
+/* Rearrange home page and login button */
+.kn-rich_text.kn-view.view_278 {
+  margin-bottom: 0px;
+  width: 80%;
+  position:relative;
+  display:inline!important;
+}
+
+.kn-rich_text.kn-view.view_278 h2{
+  margin-bottom: 0px;
+  padding-top:20px;
+  position:relative;
+  display:inline!important;
+}
+
+div#view_279 {
+  width:15%;
+  position: absolute;
+  top: -75px;
+  right: 0px;
+}
+
+div#view_279 li {
+  padding: 0px!important;
+  margin: 0px!important;
+}
+
+div#view_279 a {
+  float:right!important;
+  text-align: center!important;
+  padding-left: 10px!important;
+}
+
+div#view_279 a:visited {
+  float:right!important;
+  text-align: center!important;
+  padding-left: 10px!important;
+  color: black!important;
+  background: white!important;
+}
+
+div#view_278 {
+  padding-top: 20px;
+  margin-top: 20px;
+  top: 25px;
+}
+
+
+
+/* Add buttons styling */
+.kn-menu.kn-view.view_241 li, .kn-menu.kn-view.view_261 li, .kn-menu.kn-view.view_252 li, .kn-menu.kn-view.view_268 li {
+  padding-right: 0px!important;
+  margin: 0px!important;
+  padding-left: 10px!important;
+}
+
+div#view_241, div#view_261, div#view_252, div#view_268 {
+  position: absolute;
+  right: 0;
+}
+
+.kn-menu.kn-view.view_241 a, .kn-menu.kn-view.view_261 a, .kn-menu.kn-view.view_252 a, .kn-menu.kn-view.view_268 a {
+  color: white!important;
+  text-align: center!important;
+  background: #027ea4!important;
+  border-color: #027ea4!important;
+  padding-left: 12px!important;
+}
+
+.kn-menu.kn-view.view_241 a:visited, .kn-menu.kn-view.view_261 a:visited, .kn-menu.kn-view.view_252 a:visited, .kn-menu.kn-view.view_268 a:visited {
+  background: #027ea4!important;
+  border-color: #027ea4!important;
+}
+
+/* Edit Open Data buttons styling */
+.kn-menu.kn-view.view_274 a, .kn-menu.kn-view.view_276 a {
+  color: #dbe1e3!important;
+  text-align: center!important;
+  background: white!important;
+  padding-left: 12px!important;
+  border-color: #dbe1e3!important;
+}
+
+.kn-menu.kn-view.view_274 a:hover, .kn-menu.kn-view.view_276 a:hover {
+  border-color: #9299A5!important;
+  color: #9299A5!important;
+}
+
+.kn-menu.kn-view.view_274 li, .kn-menu.kn-view.view_276 li {
+  padding-right: 0px!important;
+  margin: 0px!important;
+  padding-left: 10px!important;
+}
+
+/*make add field to dataset button invisible created for knack support */
+/*make update frequencies popup button invisible on glossary page */
+.kn-menu.kn-view.view_468, .kn-menu.kn-view.view_398 {
+  display:none!important;
 }
 
 /*reduce size of filtering dropdown menus from 100% of screen width */
@@ -226,14 +367,11 @@ table tr th {
   text-align: center!important;
   background: #f2ba13!important;
   padding-left: 8px!important;
+  font-size: 1.2em;
 }
 
 .kn-menu.kn-view.view_383 a:hover, .kn-menu.kn-view.view_385 a:hover, .kn-menu.kn-view.view_387 a:hover, .kn-menu.kn-view.view_389 a:hover, .kn-menu.kn-view.view_391 a:hover, .kn-menu.kn-view.view_393 a:hover, .kn-menu.kn-view.view_414 a:hover {
   background: white!important;
-}
-
-.kn-menu.kn-view.view_383 a:visited, .kn-menu.kn-view.view_385 a:visited, .kn-menu.kn-view.view_387 a:visited, .kn-menu.kn-view.view_389 a:visited, .kn-menu.kn-view.view_391 a:visited, .kn-menu.kn-view.view_393 a:visited, .kn-menu.kn-view.view_414 a:visited {
-  background: #f7f7f7!important;
 }
 
 /* Update frequency chart window */
@@ -243,34 +381,21 @@ table tr th {
 
 /* Help tab landing page boxes*/
 .kn-menu.kn-view.view_300, .kn-menu.kn-view.view_410, .kn-menu.kn-view.view_408, .kn-menu.kn-view.view_403, .kn-menu.kn-view.view_405 {
-  position: absolute!important;
-  top: 70%;
+  position: relative!important;
+  float:left!important;
+  display:inline!important;
+  margin-top: 0px!important;
+}
+
+.kn-menu.kn-view.view_300 li, .kn-menu.kn-view.view_410 li, .kn-menu.kn-view.view_408 li, .kn-menu.kn-view.view_403 li, .kn-menu.kn-view.view_405 li {
+  position: relative!important;
+  float:left!important;
   height: 150px;
   width: 200px;
   text-align: center!important;
-  padding: 20px!important;
-  margin: 10px 10px 10px 10px!important;
+  margin: 0px 10px 0px 10px!important;
 }
 
-.kn-menu.kn-view.view_408 {
-  left: 40px;
-}
-
-.kn-menu.kn-view.view_410 {
-  left: 260px;
-}
-
-.kn-menu.kn-view.view_300 {
-  left: 480px;
-}
-
-.kn-menu.kn-view.view_403 {
-  left: 700px;
-}
-
-.kn-menu.kn-view.view_405 {
-  left: 920px;
-}
 
 .kn-menu.kn-view.view_300 a, .kn-menu.kn-view.view_410 a, .kn-menu.kn-view.view_408 a, .kn-menu.kn-view.view_403 a, .kn-menu.kn-view.view_405 a {
   position: relative!important;
@@ -309,16 +434,33 @@ table tr th {
 }
 
 .kn-menu.kn-view.view_405 a {
-  padding-top: 10px;
+  padding-top: 25px;
+}
+
+/*How to find data buttons */
+.kn-menu.kn-view.view_445 li, .kn-menu.kn-view.view_447 li, .kn-menu.kn-view.view_449 li, .kn-menu.kn-view.view_451 li, .kn-menu.kn-view.view_453 li, .kn-menu.kn-view.view_455 li, .kn-menu.kn-view.view_457 li {
+  width: 100%;
+}
+
+.kn-menu.kn-view.view_445 a, .kn-menu.kn-view.view_447 a, .kn-menu.kn-view.view_449 a, .kn-menu.kn-view.view_451 a, .kn-menu.kn-view.view_453 a, .kn-menu.kn-view.view_455 a, .kn-menu.kn-view.view_457 a {
+  width: 100%;
+  color: black!important;
+  text-align: center!important;
+  background: #f2ba13!important;
+  padding-left: 8px!important;
+}
+
+.kn-menu.kn-view.view_445 a:hover, .kn-menu.kn-view.view_447 a:hover, .kn-menu.kn-view.view_449 a:hover, .kn-menu.kn-view.view_451 a:hover, .kn-menu.kn-view.view_453 a:hover, .kn-menu.kn-view.view_455 a:hover, .kn-menu.kn-view.view_457 a:hover {
+  background: white!important;
 }
 
 /*FAQs page buttons */
 .kn-menu.kn-view.view_427 li, .kn-menu.kn-view.view_429 li, .kn-menu.kn-view.view_440 li, .kn-menu.kn-view.view_442 li, .kn-menu.kn-view.view_431 li, .kn-menu.kn-view.view_433 li, .kn-menu.kn-view.view_435 li, .kn-menu.kn-view.view_437 li {
-  width: 98%;
+  width: 100%;
 }
 
 .kn-menu.kn-view.view_427 a, .kn-menu.kn-view.view_429 a, .kn-menu.kn-view.view_440 a, .kn-menu.kn-view.view_442 a, .kn-menu.kn-view.view_431 a, .kn-menu.kn-view.view_433 a, .kn-menu.kn-view.view_435 a, .kn-menu.kn-view.view_437 a {
-  width: 30%;
+  width: 100%;
   color: black!important;
   text-align: center!important;
   background: #f2ba13!important;
@@ -329,6 +471,47 @@ table tr th {
   background: white!important;
 }
 
-.kn-menu.kn-view.view_427 a:visited, .kn-menu.kn-view.view_429 a:visited, .kn-menu.kn-view.view_440 a:visited, .kn-menu.kn-view.view_442 a:visited, .kn-menu.kn-view.view_431 a:visited, .kn-menu.kn-view.view_433 a:visited, .kn-menu.kn-view.view_435 a:visited, .kn-menu.kn-view.view_437 a:visited {
-  background: #f7f7f7!important;
+/*Training page buttons */
+.kn-menu.kn-view.view_475 li {
+  width: 100%;
 }
+
+.kn-menu.kn-view.view_475 a {
+  width: 100%;
+  color: black!important;
+  text-align: center!important;
+  background: #f2ba13!important;
+  padding-left: 8px!important;
+}
+
+.kn-menu.kn-view.view_475 a:hover {
+  background: white!important;
+}
+
+/* Submit buttons styling */
+.kn-view input[type=submit] {
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Tahoma', sans-serif!important;
+    letter-spacing: 1.1;
+    text-align: center;
+    border-radius: 0px!important;
+}
+
+/* Cancel button */
+
+.kn-back-link a.ang-link:before {
+    content: "Cancel";
+    color: teal!important;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    visibility: visible!important;
+}
+
+.kn-back-link a.ang-link {
+    color:white!important;
+    visibility: hidden!important;
+}
+
+#kn-scene_121 .kn-view.kn-back-link, #kn-scene_123 .kn-view.kn-back-link, #kn-scene_128 .kn-view.kn-back-link {
+  display: none!important;
+}
+
