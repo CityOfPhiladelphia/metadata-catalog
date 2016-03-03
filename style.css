@@ -2,10 +2,6 @@
 /* These styles are placed in the Knack app settings under `API & Code` 
    https://builder.knackhq.com/phl/inventory#settings/api    */
 
-@import url(htps://cityofphiladelphia.github.io/patterns/dist/0.12.6/css/patterns.css)
-/* These styles are placed in the Knack app settings under `API & Code` 
-   https://builder.knackhq.com/phl/inventory#settings/api    */
-
 #placeholder {
 //	padding-bottom: 20px;
 //  	width: 30%;
@@ -146,7 +142,7 @@ table tbody tr th.kn-label {
 	width: 100%;
 }
 
-.kn-menu.kn-view.view_271 {
+.kn-menu.kn-view.view_271, .kn-menu.kn-view.view_502 {
   	display: none!important;
   
 }
@@ -282,8 +278,6 @@ div#view_278 {
   top: 25px;
 }
 
-
-
 /* Add buttons styling */
 .kn-menu.kn-view.view_241 li, .kn-menu.kn-view.view_261 li, .kn-menu.kn-view.view_252 li, .kn-menu.kn-view.view_268 li {
   padding-right: 0px!important;
@@ -331,7 +325,8 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
 
 /*make add field to dataset button invisible created for knack support */
 /*make update frequencies popup button invisible on glossary page */
-.kn-menu.kn-view.view_468, .kn-menu.kn-view.view_398 {
+/*make menus on Add Dataset help page invisible*/
+.kn-menu.kn-view.view_468, .kn-menu.kn-view.view_398, .kn-menu.kn-view.view_417 {
   display:none!important;
 }
 
@@ -455,11 +450,11 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
 }
 
 /*FAQs page buttons */
-.kn-menu.kn-view.view_427 li, .kn-menu.kn-view.view_429 li, .kn-menu.kn-view.view_440 li, .kn-menu.kn-view.view_442 li, .kn-menu.kn-view.view_431 li, .kn-menu.kn-view.view_433 li, .kn-menu.kn-view.view_435 li, .kn-menu.kn-view.view_437 li {
+.kn-menu.kn-view.view_427 li, .kn-menu.kn-view.view_429 li, .kn-menu.kn-view.view_440 li, .kn-menu.kn-view.view_442 li, .kn-menu.kn-view.view_431 li, .kn-menu.kn-view.view_433 li, .kn-menu.kn-view.view_435 li, .kn-menu.kn-view.view_437 li, .kn-menu.kn-view.view_521 li {
   width: 100%;
 }
 
-.kn-menu.kn-view.view_427 a, .kn-menu.kn-view.view_429 a, .kn-menu.kn-view.view_440 a, .kn-menu.kn-view.view_442 a, .kn-menu.kn-view.view_431 a, .kn-menu.kn-view.view_433 a, .kn-menu.kn-view.view_435 a, .kn-menu.kn-view.view_437 a {
+.kn-menu.kn-view.view_427 a, .kn-menu.kn-view.view_429 a, .kn-menu.kn-view.view_440 a, .kn-menu.kn-view.view_442 a, .kn-menu.kn-view.view_431 a, .kn-menu.kn-view.view_433 a, .kn-menu.kn-view.view_435 a, .kn-menu.kn-view.view_437 a, .kn-menu.kn-view.view_521 a {
   width: 100%;
   color: black!important;
   text-align: center!important;
@@ -467,7 +462,7 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
   padding-left: 8px!important;
 }
 
-.kn-menu.kn-view.view_427 a:hover, .kn-menu.kn-view.view_429 a:hover, .kn-menu.kn-view.view_440 a:hover, .kn-menu.kn-view.view_442 a:hover, .kn-menu.kn-view.view_431 a:hover, .kn-menu.kn-view.view_433 a:hover, .kn-menu.kn-view.view_435 a:hover, .kn-menu.kn-view.view_437 a:hover {
+.kn-menu.kn-view.view_427 a:hover, .kn-menu.kn-view.view_429 a:hover, .kn-menu.kn-view.view_440 a:hover, .kn-menu.kn-view.view_442 a:hover, .kn-menu.kn-view.view_431 a:hover, .kn-menu.kn-view.view_433 a:hover, .kn-menu.kn-view.view_435 a:hover, .kn-menu.kn-view.view_437 a:hover, .kn-menu.kn-view.view_521 a:hover {
   background: white!important;
 }
 
@@ -497,21 +492,59 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
     border-radius: 0px!important;
 }
 
-/* Cancel button */
-
-.kn-back-link a.ang-link:before {
-    content: "Cancel";
-    color: teal!important;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    visibility: visible!important;
+/* News button */
+#view_493 a {
+    position: absolute;
+    top: 120;
+    padding-left: 6;
+    border: 2px solid #f3c613;
+    background: #f3c613!important;
+    /* color: #f3c613!important; */
 }
 
-.kn-back-link a.ang-link {
-    color:white!important;
-    visibility: hidden!important;
+#view_493 a:visited {
+    border: 1px solid #f0f0f0;
+    background: white!important;
+    color: #f0f0f0!important;
 }
 
-#kn-scene_121 .kn-view.kn-back-link, #kn-scene_123 .kn-view.kn-back-link, #kn-scene_128 .kn-view.kn-back-link {
-  display: none!important;
+#view_493 a:hover {
+    border: 2px solid #f3c613;
+    background: white!important;
+    color: #f3c613!important;
 }
 
+div#view_493 {
+    float: left!important;
+    height: 0;
+}
+
+#view_495 {
+  display:none!important;
+}
+
+/* Print button */
+.kn-print {
+    border: .25px solid #cfcfcf;
+    position: absolute!important;
+    right: 0;
+    top: -68px;
+    padding: 8px 18px 8px 22px;
+    color: black!important;
+}
+
+#kn-scene_141 .kn-print a, #kn-scene_142 .kn-print a {
+  color: black!important;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-size: .9rem;
+  padding-top: 7px!important;
+  height: 2.4rem;
+  letter-spacing: 1.1;
+  text-align: center!important;
+}
+
+/* Import fields page arrangement */
+div#view_506, div#view_507 {
+  width: 40%;
+}
