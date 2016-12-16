@@ -460,6 +460,7 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
   text-align: center!important;
   background: #f2ba13!important;
   padding-left: 8px!important;
+  margin-bottom: 12px!important;
 }
 
 .kn-menu.kn-view.view_427 a:hover, .kn-menu.kn-view.view_429 a:hover, .kn-menu.kn-view.view_440 a:hover, .kn-menu.kn-view.view_442 a:hover, .kn-menu.kn-view.view_431 a:hover, .kn-menu.kn-view.view_433 a:hover, .kn-menu.kn-view.view_435 a:hover, .kn-menu.kn-view.view_437 a:hover, .kn-menu.kn-view.view_521 a:hover {
@@ -467,11 +468,11 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
 }
 
 /*Training page buttons */
-.kn-menu.kn-view.view_475 li {
+.kn-menu.kn-view.view_475 li, .kn-menu.kn-view.view_524 li, .kn-menu.kn-view.view_546 li {
   width: 100%;
 }
 
-.kn-menu.kn-view.view_475 a {
+.kn-menu.kn-view.view_475 a, .kn-menu.kn-view.view_524 a, .kn-menu.kn-view.view_546 a {
   width: 100%;
   color: black!important;
   text-align: center!important;
@@ -479,7 +480,7 @@ div#view_241, div#view_261, div#view_252, div#view_268 {
   padding-left: 8px!important;
 }
 
-.kn-menu.kn-view.view_475 a:hover {
+.kn-menu.kn-view.view_475 a:hover, .kn-menu.kn-view.view_524 a:hover, .kn-menu.kn-view.view_546 a:hover {
   background: white!important;
 }
 
@@ -523,6 +524,10 @@ div#view_493 {
   display:none!important;
 }
 
+#view_246 {
+  margin-bottom:72px!important;
+}
+
 /* Print button */
 .kn-print {
     border: .25px solid #cfcfcf;
@@ -548,3 +553,14 @@ div#view_493 {
 div#view_506, div#view_507 {
   width: 40%;
 }
+
+/* Override weird delete button formatting Dec 2016*/
+.delete {
+  width: inherit!important;
+  border-radius: 0px!important;
+}
+
+.delete:after, .delete:before {
+  display:none!important;
+}
+  
