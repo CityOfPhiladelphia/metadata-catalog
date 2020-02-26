@@ -117,7 +117,8 @@ table tbody tr th.kn-label {
 }
 
 .kn-table tbody td{
-	line-height: 1.5rem!important;  	
+  line-height: 1.25rem !important;  	
+  font-size: 12px !important;
 }
 
 .kn-table tr.odd {
